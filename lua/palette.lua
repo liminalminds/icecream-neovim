@@ -24,5 +24,4 @@ local palette = {
 	none = 'NONE',
 }
 
-
 return palette

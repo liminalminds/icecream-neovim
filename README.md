@@ -1,6 +1,10 @@
 # Icecream for [Neovim](https://github.com/neovim/neovim)
 
-![Neovim](https://raw.githubusercontent.com/liminalminds/icecream/master/images/screenshots/neovim.png)
+![Screenshot](screenshot.png)
+
+## Credits
+
+This colorscheme is based on the awesome [rosepine](https://github.com/rose-pine) colorscheme for [neovim](https://github.com/rose-pine/neovim).
 
 ## Install
 
@@ -9,7 +13,7 @@
 ```lua
 require('lazy').setup({
   {
-    'liminalminds/icecream.nvim',
+    'liminalminds/icecream-neovim',
     name = 'icecream',
     lazy = false,
     priority = 1000,
@@ -21,8 +25,7 @@ require('lazy').setup({
 
 ```lua
 require('packer').startup(function(use)
-  use({ 'liminalminds/icecream.nvim', as = 'icecream' })
+  use({ 'liminalminds/icecream-neovim', as = 'icecream' })
 end)
 ```
 
-:D
